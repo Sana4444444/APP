@@ -11,7 +11,8 @@ html{
 
 body{
     font-family: 'popons', sans-serif;
-    background-color: black
+    background-color: rgb(27,27,27);
+    overflow-x: hidden;
 }
 
 .header{
@@ -95,4 +96,78 @@ body{
     width: 100%;
     background-color: white;
     margin: 1rem;
+}
+
+.about{
+    width: 100%;
+    padding: 10rem 5rem;
+    background-image: linear-gradient(to right bottom, rgb(182, 201, 184), yellowgreen);
+}
+
+.about-heading{
+    margin-bottom: 50px;
+    margin-top: -110px;
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+}
+
+.about-heading span{
+    color: yellowgreen;
+}
+
+.about-grid{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    justify-self: center;
+    grid-gap: 2rem;
+}
+.heading-secondary{
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.about-container{
+    width: 415%;
+    height: 60rem;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    transition: all .4s ease;
+}
+
+.about-container:hover{
+    box-shadow: 0 0 5rem rgba(0, 0, 0, .4);
+    transform: scale(1.07);
+}
+
+.about-p{
+    font-size: 1.4rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.about-title{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.about-title span{
+    color: yellowgreen;
+}
+.description{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 0 .4rem 2rem rgba(0, 0, 0, .4);
 }

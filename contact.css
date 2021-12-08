@@ -96,3 +96,9 @@ body{
     background-color: white;
     margin: 1rem;
 }
+
+.contact{
+    width: 100%;
+    padding: 44rem;
+    background-image: linear-gradient(to right bottom, rgb(182, 201, 184), yellowgreen);
+}

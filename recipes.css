@@ -114,6 +114,10 @@ body{
     font-weight: 800;
 }
 
+.recipe-heading span{
+    color: yellowgreen;
+}
+
 .recipe-grid{
     display: grid;
     grid-template-rows: repeat(2, 1fr);
