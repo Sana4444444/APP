@@ -11,8 +11,7 @@ html{
 
 body{
     font-family: 'popons', sans-serif;
-    background-color: rgb(27,27,27);
-    overflow-x: hidden;
+    background-color: black
 }
 
 .header{
@@ -132,7 +131,7 @@ body{
     text-align: center;
 }
 .recipe-img{
-    height: 50%;
+    height: 40%;
     width: 100%;
     background-size: cover;
     background-position: left;
@@ -140,7 +139,7 @@ body{
 }
 
 .recipe-imgs{
-    height: 50%;
+    height: 40%;
     width: 100%;
     background-size: cover;
     background-position: left;
@@ -148,7 +147,7 @@ body{
 }
 
 .recipe-imgss{
-    height: 50%;
+    height: 40%;
     width: 100%;
     background-size: cover;
     background-position: left;
@@ -156,12 +155,45 @@ body{
 }
 
 .recipe-imgsss{
-    height: 50%;
+    height: 40%;
     width: 100%;
     background-size: cover;
     background-position: left;
     background-image: url(./imgs/tinolangmanok.jpg);
 }
+
+.recipe-imgssss{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(./imgs/Menudo.jpg);
+}
+
+.recipe-imgsssss{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(./imgs/sweetandsourtilapia.jpg);
+}
+
+.recipe-imgssssss{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(./imgs/crispysisig.jpg);
+}
+
+.recipe-imgsssssss{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(./imgs/chopsuey.jpg);
+}
+
 
 .recipe-container{
     width: 100%;
