@@ -158,16 +158,26 @@ body{
     margin-top: 10px;
     margin-left: 20px;
     font-size: 3rem;
-    text-align: left;
+    text-align: center;
 }
 
 .about-title span{
     color: yellowgreen;
 }
 .description{
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    text-align: justify;
     color: black;
-    text-shadow: 0 .4rem 2rem rgba(0, 0, 0, .4);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    letter-spacing: 1px;
+}
+.description span{
+    margin-left: 2rem;
+    color: yellowgreen;
+}
+.description span{
+    margin-left: 2rem;
+    color: yellowgreen;
 }

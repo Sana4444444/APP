@@ -99,6 +99,126 @@ body{
 
 .contact{
     width: 100%;
-    padding: 44rem;
+    padding: 10rem 5rem;
     background-image: linear-gradient(to right bottom, rgb(182, 201, 184), yellowgreen);
+}
+
+.contact-heading{
+    margin-bottom: 50px;
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+}
+
+.contact-heading span{
+    color: yellowgreen;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    justify-self: center;
+    grid-gap: 2rem;
+}
+.heading-secondary{
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+.contact-img{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(./imgs/cellphone.jpg);
+}
+
+.contact-imgs{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+}
+
+.contact-imgss{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(./imgs/email.jpg);
+}
+
+.contact-imgsss{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+}
+
+.contact-container{
+    width: 100%;
+    height: 50rem;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    transition: all .4s ease;
+}
+
+.contact-container2{
+    width: 100%;
+    height: 50rem;
+    background-color: rgb(193, 243, 93);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    transition: all .4s ease;
+}
+
+.contact-container3{
+    width: 100%;
+    height: 50rem;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    transition: all .4s ease;
+}
+
+.contact-container1{
+    width: 206%;
+    height: 50rem;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    transition: all .4s ease;
+}
+
+.contact-container:hover{
+    box-shadow: 0 0 5rem rgba(0, 0, 0, .4);
+    transform: scale(1.07);
+}
+
+.contact-p{
+    font-size: 1.4rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.contact-title{
+    font-size: 3rem;
+    text-align: center;
+}
+.description{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 0 .4rem 2rem rgba(0, 0, 0, .4);
 }
