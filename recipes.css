@@ -40,7 +40,6 @@ body{
 
 .heading-tertiary{
     font-size: 3rem;
-
 }
 
 .yg{
@@ -49,7 +48,7 @@ body{
 
 .navbar-list{
     list-style: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .navbar-item{
@@ -87,7 +86,7 @@ body{
 }
 
 .box{
-    max-width: 400px;
+    max-width: 200px;
     width: 100%;
   
   }
@@ -130,7 +129,7 @@ body{
   #check:checked ~ .search-box .icon{
     background: yellowgreen;
     color: #FFF;
-    width: 60px;
+    width: 30px;
     border-radius: 0 25px 25px 0;
   }
   #check{
