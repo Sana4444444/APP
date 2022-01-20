@@ -188,7 +188,7 @@ body{
     background-image: url(./imgs/adobo.jpg);
 }
 
-.recipe-imgs{
+.recipe-img1{
     height: 40%;
     width: 100%;
     background-size: cover;
@@ -196,7 +196,7 @@ body{
     background-image: url(./imgs/sinigangnababoy.jpg);
 }
 
-.recipe-imgss{
+.recipe-img2{
     height: 40%;
     width: 100%;
     background-size: cover;
@@ -204,7 +204,7 @@ body{
     background-image: url(./imgs/nilagangbaka.jpg);
 }
 
-.recipe-imgsss{
+.recipe-img3{
     height: 40%;
     width: 100%;
     background-size: cover;
@@ -212,7 +212,7 @@ body{
     background-image: url(./imgs/tinolangmanok.jpg);
 }
 
-.recipe-imgssss{
+.recipe-img4{
     height: 40%;
     width: 100%;
     background-size: cover;
@@ -220,7 +220,7 @@ body{
     background-image: url(./imgs/Menudo.jpg);
 }
 
-.recipe-imgsssss{
+.recipe-img5{
     height: 40%;
     width: 100%;
     background-size: cover;
@@ -228,7 +228,7 @@ body{
     background-image: url(./imgs/sweetandsourtilapia.jpg);
 }
 
-.recipe-imgssssss{
+.recipe-img6{
     height: 40%;
     width: 100%;
     background-size: cover;
@@ -236,12 +236,76 @@ body{
     background-image: url(./imgs/crispysisig.jpg);
 }
 
-.recipe-imgsssssss{
+.recipe-img7{
     height: 40%;
     width: 100%;
     background-size: cover;
     background-position: left;
     background-image: url(./imgs/chopsuey.jpg);
+}
+
+.recipe-img8{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(./imgs/ampalaya.jpg);
+}
+
+.recipe-img9{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(./imgs/Chicken-Paksiw.jpg);
+}
+
+.recipe-img10{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(./imgs/pinoyfriedchicken.jpg);
+}
+
+.recipe-img11{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(./imgs/beefpares.jpg);
+}
+
+.recipe-img12{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(./imgs/pininyahang\ baboy.JPG);
+}
+
+.recipe-img13{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(./imgs/Dinakdakan.jpg);
+}
+
+.recipe-img14{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(./imgs/corned-beef-omelet.jpg);
+}
+
+.recipe-img15{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(./imgs/pinaputok.JPG);
 }
 
 
@@ -264,6 +328,7 @@ body{
     font-size: 1.4rem;
     padding: 1rem;
     text-align: center;
+    text-align: justify;
 }
 
 .recipe-title{
